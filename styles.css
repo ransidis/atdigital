@@ -181,6 +181,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-bottom: 2rem;
+    color: #6B3CC9;
 }
 
 .faq-item {
@@ -188,6 +189,11 @@ nav {
     cursor: pointer;
     background-color: #FAF8FF;
     margin-top: 10px;
+}
+
+.faq-item:focus {
+   color: #6B3CC9;
+    
 }
 
 .faq-item h3 {
